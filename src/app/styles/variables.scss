@@ -1,6 +1,9 @@
 $primary-color: #222;
-
+$secondary-color: #fff;
 $border-color: #ada8a3;
 $secondary-border-color: #ebebeb;
-
+$tertiary-border-color: rgba(255, 255, 255, 0.3);
 $global-width: clamp(320px, 100%, 1440px);
+$transition: all 0.3s ease;
+$animation-focus-in: text-focus-in 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+  both;
